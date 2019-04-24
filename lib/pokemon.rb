@@ -29,7 +29,7 @@ class Pokemon
     SQL
 
     result = db.execute(sql, id)[0]
-    binding.pry
+    # binding.pry
     id = result[0]
     name = result[1]
     type = result[2]
