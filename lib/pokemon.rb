@@ -1,6 +1,7 @@
 require 'pry'
 
 class Pokemon
+<<<<<<< HEAD
   attr_accessor :name, :type, :db, :hp
   attr_reader :id
 
@@ -43,5 +44,9 @@ class Pokemon
     db.execute(sql, hp, self.id)
     # binding.pry
     self.hp = hp
+=======
+
+  def initialize()
+>>>>>>> 5244440d4d88930ae006c229c6da085294272648
   end
 end
